@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_staff_staff",
+  "info": {
+    "name": "Staff",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "role": {
+      "type": "string"
+    }
+  }
+}

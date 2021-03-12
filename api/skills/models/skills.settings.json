@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "skills",
+  "info": {
+    "name": "Skills",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.slider-image"
+    },
+    "staff": {
+      "type": "component",
+      "repeatable": true,
+      "component": "staff.staff"
+    }
+  }
+}

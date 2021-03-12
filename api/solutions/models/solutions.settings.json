@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "solutions",
+  "info": {
+    "name": "Solutions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.slider-image"
+    }
+  }
+}

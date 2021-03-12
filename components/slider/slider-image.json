@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_slider_slider_images",
+  "info": {
+    "name": "Slider_Image",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "category": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "isRight": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

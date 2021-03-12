@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutuses",
+  "info": {
+    "name": "AboutUs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.slider-image"
+    }
+  }
+}

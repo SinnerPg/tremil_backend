@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.slider-image"
+    },
+    "relatedProducts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "related-products.related-products"
+    }
+  }
+}

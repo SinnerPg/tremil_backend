@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_related_products_related_products",
+  "info": {
+    "name": "RelatedProducts",
+    "icon": "cash-register",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "model": "product"
+    }
+  }
+}

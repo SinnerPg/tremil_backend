@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/blog-news",
+      "handler": "blog-news.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/blog-news/count",
+      "handler": "blog-news.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/blog-news/:id",
+      "handler": "blog-news.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/blog-news",
+      "handler": "blog-news.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/blog-news/:id",
+      "handler": "blog-news.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/blog-news/:id",
+      "handler": "blog-news.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

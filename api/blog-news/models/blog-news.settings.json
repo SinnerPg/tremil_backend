@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_news",
+  "info": {
+    "name": "BlogNews",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "publishDate": {
+      "type": "date"
+    },
+    "blog_category": {
+      "model": "blog-categories",
+      "via": "blog_news"
+    },
+    "author": {
+      "model": "authors",
+      "via": "blog_news"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
